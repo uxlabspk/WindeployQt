@@ -6,7 +6,6 @@
 
     * Open qt creator and open project.
     * Build it.
-    * If you are using different version of Qt so you must have to insert the correct location of Qt in constructor.
 
 ## Usage:
     * Click on browse button to browse the .exe file.
