@@ -141,11 +141,6 @@ void MainWindow::on_actionMinimize_triggered()
     MainWindow::showMinimized();
 }
 
-void MainWindow::on_actionAbout_app_triggered()
-{
-    ui->stackedWidget->setCurrentIndex(3);
-}
-
 void MainWindow::on_actionAbout_Qt_triggered()
 {
     QMessageBox::aboutQt(this, "About Qt");
@@ -166,4 +161,11 @@ void MainWindow::on_generateQmlBtn_clicked()
 void MainWindow::on_label_6_linkActivated()
 {
     ui->stackedWidget->setCurrentIndex(2);
+}
+
+void MainWindow::on_actionFollow_me_on_twitter_triggered()
+{
+    QUrl url;
+    url.setUrl("https://twitter.com/prog_naveed");
+    QDesktopServices::openUrl(url);
 }

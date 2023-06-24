@@ -8,6 +8,7 @@
 #include <QXmlStreamReader>
 #include <QTextStream>
 #include <QFile>
+#include <QDesktopServices>
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
@@ -49,13 +50,13 @@ private slots:
 
     void on_actionMinimize_triggered();
 
-    void on_actionAbout_app_triggered();
-
     void on_actionAbout_Qt_triggered();
 
     void on_generateQmlBtn_clicked();
 
     void on_label_6_linkActivated();
+
+    void on_actionFollow_me_on_twitter_triggered();
 
 private:
     Ui::MainWindow *ui;

@@ -1,5 +1,5 @@
 <RCC>
     <qresource prefix="/ico">
-        <file>start-here.svg</file>
+        <file>assets/app.svg</file>
     </qresource>
 </RCC>
